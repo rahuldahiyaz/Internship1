@@ -1,18 +1,19 @@
-# Even/Odd Number Checker
+# Even / Odd Checker (Java)
 
-I built this tiny Java console program to do one simple thing:  
-ask for a number, then tell you if it’s even or odd.
+This is a small Java console app I wrote to check whether a number is even or odd.  
+It’s one of those classic beginner programs, but it’s actually a great way to learn the basics.
 
-## Why I Made It
-When learning Java, I wanted to practice the basics — taking input from a user, using `if` statements, and working with the modulus operator (`%`).  
-It’s a very small project, but it covers a lot of the first things you learn as a Java beginner.
+## The Idea
+I wanted to practice:
+- Taking user input in Java
+- Using the modulus operator `%`
+- Writing simple `if` / `else` logic
+
+So I built this quick program where you type a number and it instantly tells you if it’s even or odd.
 
 ## How It Works
-The program:
-1. Asks the user to type in an integer.
-2. Uses `number % 2` to figure out if there’s a remainder when dividing by 2.
-   - No remainder? It’s even.
-   - Remainder? It’s odd.
-3. Prints the result.
-
-That’s it. Simple and quick.
+1. The program asks you to enter an integer.
+2. It checks the remainder when dividing that number by 2 (`number % 2`).
+3. If the remainder is 0 → it’s **even**.  
+   Otherwise → it’s **odd**.
+4. The result is printed to the screen.
