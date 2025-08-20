@@ -4,3 +4,4 @@ Task 3 -> StaffSorter.java
 Task 4 -> Product.java
 Task 5 -> ExceptionProgram.java
 Task 6 -> JavaJDBC.java
+Task 7 -> CRUD SpringBoot
